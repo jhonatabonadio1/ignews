@@ -14,7 +14,7 @@ export function Header(){
                 <img src={logo} />
                 <Nav>
                     <NavLink active>Home</NavLink>
-                    <NavLink active>Posts</NavLink>
+                    <NavLink>Posts</NavLink>
                 </Nav>
             </HeaderContent>
         </HeaderContainer>
