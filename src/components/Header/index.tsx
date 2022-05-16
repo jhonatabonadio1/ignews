@@ -5,14 +5,16 @@ import {
     NavLink
 } from './styles'
 
+import logo from '../../assets/images/logo.svg'
+
 export function Header(){
     return(
         <HeaderContainer>
             <HeaderContent>
-                <img src="/images/logo.svg" alt="ig.news" />
+                <img src={logo} />
                 <Nav>
                     <NavLink active>Home</NavLink>
-                    <NavLink>Posts</NavLink>
+                    <NavLink active>Posts</NavLink>
                 </Nav>
             </HeaderContent>
         </HeaderContainer>

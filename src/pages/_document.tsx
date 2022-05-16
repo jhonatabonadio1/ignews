@@ -12,7 +12,7 @@ export default class MyDocument extends Document{
           ctx.renderPage = () =>
             originalRenderPage({
               enhanceApp: (App) => (props) =>
-                sheet.collectStyles(<App {...props} />),
+              sheet.collectStyles(<App {...props}/>),
             })
     
           const initialProps = await Document.getInitialProps(ctx)
@@ -31,7 +31,7 @@ export default class MyDocument extends Document{
       }
     render() {
         return(
-            <Html>
+            <Html lang="en">
                 <Head>
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
