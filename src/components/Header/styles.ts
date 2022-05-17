@@ -16,6 +16,10 @@ export const HeaderContent = styled.div`
     padding: 0 2rem;
     display: flex;
     align-items: center;
+
+    button{
+        margin-left: auto;
+    }
 `;
 
 export const Nav = styled.div`

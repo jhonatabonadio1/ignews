@@ -6,6 +6,7 @@ import {
 } from './styles'
 
 import Logo from '../../assets/images/logo.svg'
+import { SignInButton } from './SignInButton'
 
 export function Header(){
     return(
@@ -16,6 +17,8 @@ export function Header(){
                     <NavLink active>Home</NavLink>
                     <NavLink>Posts</NavLink>
                 </Nav>
+
+                <SignInButton />
             </HeaderContent>
         </HeaderContainer>
     )
